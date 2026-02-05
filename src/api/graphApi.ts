@@ -1,6 +1,6 @@
 import axios from "axios";
 
-export const api = axios.create({
+export const API = axios.create({
   baseURL: "https://insightboard-backend-57ed.vercel.app/"
 });
 
