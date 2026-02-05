@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const API = axios.create({
-  baseURL: "https://insightboard-backend-57ed.vercel.app/"
+  baseURL: "https://insightboard-backend-do45.vercel.app/"
 });
 
 export const submitTranscript = (transcript: string) =>
